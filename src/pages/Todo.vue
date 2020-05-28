@@ -27,7 +27,7 @@
         </q-item-section>
       </q-item>      
     </q-list>
-    <div class="absolute-bottom">
+    <div class="bottom-right">
         <q-btn round color="red" icon="add" @click="addTodo()" />
     </div>
   </q-page>
@@ -94,4 +94,12 @@ export default {
       color: #bbbbbb;
     }
   }
+</style>
+
+<style>
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
 </style>

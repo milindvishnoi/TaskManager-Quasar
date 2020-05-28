@@ -1,8 +1,10 @@
-# quasar todo (todo)
+# Quasar Task Manager
+This is a small project for learning Quasar.
 
-Learning Quasar Framework 
+<img src="screenshot.png" width="900">
 
-## Install the dependencies
+## Running the project
+### Install the dependencies
 ```bash
 npm install
 ```
